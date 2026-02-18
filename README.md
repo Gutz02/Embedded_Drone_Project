@@ -1,10 +1,5 @@
 # Embedded Drone Control System (Rust) — Embedded Systems Lab
 
-## My contributions
-- GUI
-- Communication protocol
-- Butterworth, Kalman Filter and Complementary
-
 Real-time control + tooling stack for a tethered quadrotor platform, built during TU Delft’s Embedded Systems Lab.  
 The project focuses on: (1) safe state-based control, (2) real-time telemetry + tuning, and (3) robust PC↔drone communication.
 
