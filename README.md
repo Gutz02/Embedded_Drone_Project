@@ -42,6 +42,10 @@ The GUI supports:
 - Motor output ratio visualization (helps debug control behavior without flying)
 - Sliders for PID gains + filter parameters
 - Buttons for flash-save of control/filter settings
+- 
+<img width="1045" height="391" alt="image" src="https://github.com/user-attachments/assets/52c86810-578e-4914-a272-42edd19816fe" />
+
+<img width="865" height="310" alt="image" src="https://github.com/user-attachments/assets/e72e8ca3-6129-46d2-a5a8-d8749b20e051" />
 
 ### Communication protocol (UART)
 - Messages are represented as a `MessageType` enum, each variant backed by its own struct
