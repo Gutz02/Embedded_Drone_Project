@@ -1,0 +1,22 @@
+[package]
+name = "runner"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "main"
+path = "src/main.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+controller = { version = "0.1.0", path = "../controller" }
+tudelft-serial-upload = "2"
+user_interface = { path = "../user_interface" }
+communication =  { path = "../communication"}
+
+postcard = "1.1.1"
+bincode = "1.3"
+serde = { version = "1.0.217", features = ["derive"] }
+chrono = "0.4.39"
+fixed = "1.29.0"

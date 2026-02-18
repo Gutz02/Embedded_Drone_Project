@@ -1,0 +1,16 @@
+[package]
+name = "template-project"
+version = "3.0.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tudelft-quadrupel = "3"
+micromath = "2"
+communication =  { path = "../communication"}
+postcard = "1.1.1"
+num-traits = { version = "0.2", default-features = false }
+
+libm = "0.2.11"
+heapless = "0.8.0"

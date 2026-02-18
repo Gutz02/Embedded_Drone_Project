@@ -1,0 +1,19 @@
+[package]
+name = "user_interface"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+csv = "1.1"
+eframe = "0.31.0"
+egui_extras = "0.31.0"
+tudelft-serial-upload = "2"
+communication =  { path = "../communication"}
+egui_plot = { version = "0.31.0", features = ["default"] }
+env_logger = { version = "0.10", default-features = false, features = [
+    "auto-color",
+    "humantime",
+] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+postcard = "1.1.1"

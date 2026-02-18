@@ -1,0 +1,8 @@
+[package]
+name = "controller"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+gilrs = "0.11.0"
+gilrs-core = "0.6.2"

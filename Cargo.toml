@@ -1,0 +1,11 @@
+[workspace]
+members = ["dronecode", "runner", "controller", "communication"]
+default-members = ["dronecode"]
+resolver="2"
+
+[profile.release]
+opt-level = "z"
+lto = true
+
+[profile.dev]
+opt-level = "z"
